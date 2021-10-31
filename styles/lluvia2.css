@@ -1,0 +1,36 @@
+@font-face {
+    font-family: poemalluvia1;
+    src: url("../fonts/Tangerine-Bold.ttf");
+}
+
+body{
+    
+        background-color: #E5D9D4; 
+        background-image: linear-gradient(to top, rgba(40,65,33,1), rgba(229,217,212,1)); 
+}
+#container{
+    background-image: url("../images/rainonwindow-background.jpg");
+    width: 85%;
+    height: 200vh;
+    margin:auto;
+    background-size: cover;
+    border-radius: 10% 10% 10% 10%;
+    padding-top: 30px;
+    
+}
+#poema-lluvia{
+    color: #164e79;
+    box-shadow:
+    5px 5px 10px #102316,
+    -5px 5px 10px #102316,
+    5px -5px 10px #102316,
+    -5px -5px 10px #102316;
+    font-size: 2em;
+    font-family: poemalluvia1;
+    text-align: center;
+    border-radius: 80% 80% 65% 65%;
+    background-color: #d2ccc4ea;
+    margin: 30px;
+    padding: 40px;
+    width: 270px;
+}

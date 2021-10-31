@@ -1,0 +1,30 @@
+@font-face {
+    font-family: poemalluvia;
+    src: url("../fonts/GreatVibes-Regular.ttf");
+}
+body{
+    background-image: url("../images/rainbow-backgroundpattern.png");   
+
+}
+#container{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+#poema{
+    border-radius: 5%;
+    box-shadow:
+    5px 5px 10px #1B8788,
+    -5px 5px 10px #1B8788,
+    5px -5px 10px #1B8788,
+    -5px -5px 10px #1B8788;
+    font-size: 2em;
+    font-family: poemalluvia;
+    background-color: #ffffffe5;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    
+    
+
+}
